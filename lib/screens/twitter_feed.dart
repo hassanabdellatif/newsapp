@@ -59,18 +59,18 @@ class _TwitterFeedState extends State<TwitterFeed> {
             Row(
               children: [
                 Text(
-                  "Christina Meyers",
+                  "Hassan Ahmed",
                   style: TextStyle(
-                    color: Colors.grey.shade900,
-                    fontSize: 16,
-                    fontWeight: FontWeight.w600,
+                    color: Colors.grey.shade800,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500,
                   ),
                 ),
                 SizedBox(
                   width: 8,
                 ),
                 Text(
-                  "@ch_meyers",
+                  "@ha_ahmed",
                   style: TextStyle(color: Colors.grey),
                 ),
               ],
@@ -78,7 +78,7 @@ class _TwitterFeedState extends State<TwitterFeed> {
             SizedBox(
               height: 8,
             ),
-            Text('Fri, 12 May 2017 . 14.30'),
+            Text('Fri, 29 May 2020 . 09.46'),
           ],
         )
       ],
