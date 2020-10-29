@@ -64,7 +64,7 @@ class _InstagramFeedState extends State<InstagramFeed> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Christina Meyers",
+                  "Hassan Ahmed",
                   style: TextStyle(
                     color: Colors.grey.shade900,
                     fontSize: 16,
@@ -74,7 +74,7 @@ class _InstagramFeedState extends State<InstagramFeed> {
                 SizedBox(
                   height: 8,
                 ),
-                Text('Fri, 12 May 2017 . 14.30'),
+                Text('Fri, 29 May 2020 . 09.30'),
               ],
             ),
           ],
@@ -100,7 +100,7 @@ class _InstagramFeedState extends State<InstagramFeed> {
             Transform.translate(
               offset: Offset(-10, 0),
               child: Text(
-                '25',
+                '29',
                 style: TextStyle(
                   color: Colors.grey.shade400,
                   fontSize: 16,
@@ -172,7 +172,7 @@ class _InstagramFeedState extends State<InstagramFeed> {
         FlatButton(
           onPressed: () {},
           child: Text(
-            '10 COMMENTS',
+            '20 COMMENTS',
             style: _hashTagStyle,
           ),
         ),
